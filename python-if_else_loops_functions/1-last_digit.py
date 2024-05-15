@@ -5,6 +5,9 @@ last_digit = abs(number) % 10
 
 description = f"Last digit of {number} is {last_digit}"
 
+if number < 0:
+    last_digit *= -1
+
 if last_digit > 5:
     description += " and is greater than 5"
 elif last_digit == 0:
