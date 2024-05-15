@@ -3,7 +3,7 @@ import random
 number = random.randint(-10000, 10000)
 last_digit = abs(number) % 10
 
-description = f"The string Last digit of {number} is {last_digit}"
+description = f"Last digit of {number} is {last_digit}"
 
 if last_digit > 5:
     description += " and is greater than 5"
