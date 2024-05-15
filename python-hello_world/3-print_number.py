@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 import sys
 
-number = 333
-print(f"{number} Battery street\n")
+number = 98
+street = "Battery street"
+print(f"{number} {street}")
