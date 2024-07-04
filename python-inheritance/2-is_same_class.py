@@ -1,8 +1,10 @@
 #!/usr/bin/python3
-"""2-is_same_class.py
-"""
+""" module that returns true or false"""
 
 
 def is_same_class(obj, a_class):
-    """ Compare if obj is exactly an instance of a_class """
-    return type(obj) == a_class
+    """ tests if obj is an instance of a_class """
+
+    if type(obj) is a_class:
+        return True
+    return False
