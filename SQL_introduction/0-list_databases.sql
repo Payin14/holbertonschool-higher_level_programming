@@ -1,1 +1,2 @@
---commnets
+--Show data bases
+SHOW DATABASES;
